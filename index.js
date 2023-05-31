@@ -1,4 +1,4 @@
-// Autores de nanoid removieron soporte para uso de CommonJS, lo reemplacé por uuid
+// Autores de nanoid removieron soporte para uso de CommonJS, lo reemplacé por uuid para mantener la misma sintaxis
 const { v4: uuidv4 } = require('uuid');
 const { concatenar } = require('./utils');
 
